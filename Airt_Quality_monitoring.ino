@@ -3,8 +3,8 @@
 #define BLYNK_TEMPLATE_NAME "Air Quality monitoring"
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-char ssid[] = "realme C11";
-char pass[] = "rithi:phone";
+char ssid[] = "deviceName";
+char pass[] = "password";
 char auth[] = "EoLmcK6ndDCfQTko9ANZUljdtyP2GMud";
 BlynkTimer timer;
 int pinValue = 0;
