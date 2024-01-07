@@ -13,7 +13,7 @@ void loop() {
 void WiFiConnection()
 {
   WiFi.mode(WIFI_STA);  //Connecting ESP8266 via Station mode
-  WiFi.begin("realme C11","rithi:phone");
+  WiFi.begin("devicename","password");
   Serial.print("Connecting to WiFi"); 
   //WiFi.status will return the WL_CONNECTED when it is connected to the WiFi router if not print the folloeing satus
   while(WiFi.status()!=WL_CONNECTED)  
